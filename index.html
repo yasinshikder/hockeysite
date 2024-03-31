@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+   <header>
+    <nav class="container mx-auto lg:px-24 px-8">
+        <div class="navbar bg-base-100 ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li class="text-3xl"><a>Home</a></li>
+                  
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl">Hockey<span class="text-red-400">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-3xl"><a>Home</a></li>
+                
+                <li class="text-3xl"><a>About</a></li>
+              </ul>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-3xl"><a>Page</a></li>
+                
+                <li class="text-3xl"><a>Blog</a></li>
+                <li class="text-3xl"><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  text-3xl">
+              <a class="btn btn-error text-3xl ">Button</a>
+            </div>
+          </div>
+    </nav>
+
+<!-- carosol start -->
+ <div class=" container mx-auto lg:px-24 px-8">
+
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full bg-cover bg-center flex items-end  sm:flex flex-col bg-no-repeat bg-[url(./images/1.png)]">
+         
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2"  class="carousel-item relative w-full bg-cover bg-center bg-no-repeat bg-[url(./images/2.png)]">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3"  class="carousel-item relative w-full bg-cover bg-center bg-no-repeat bg-[url(./images/3.png)]"">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full bg-cover bg-center bg-no-repeat bg-[url(./images/1.png)]">
+          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    
+
+ </div>
+<!-- carosol End -->
+
+<div class="  container   md: flex justify-end -mt-20 px-24 absolute">
+  <div class=" w-64 text-white bg-black ">
+    <h1 class="text-3xl">Hockey Images</h1>
+    <p>One of the best game in the world</p>
+  </div>
+  </div>
+
+
+   </header> 
+   
+   <main class="container mx-auto px-24 px-8">
+<div class="container mx-auto px-24 px-8 text-center mt-2">
+    <h1 class="text-4xl">Professional Hockeys Club</h1>
+    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+dolor. Purus urna in sit nullam proin. 
+</p>
+     
+</div>
+<div class=" flex flex-col gap-5 px-48 md:flex-row justify-between mt-4 p-2">
+    <div class="graph-one">
+        <div class="radial-progress text-secondary" style="--value:87;" role="progressbar">87%</div>
+    </div>
+    <div class="graph-two">
+        <div class="radial-progress text-accent" style="--value:95;" role="progressbar">95%</div>
+    </div>
+    <div class="graph-three">
+        <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
+    </div>
+    <div class="graph-four">
+        <div class="radial-progress text-success" style="--value:70;" role="progressbar">70%</div>
+    </div>
+</div>
+<div class="program mt-4 text-center">
+    <h1 class="text-4xl text-black">Program Sections</h1>
+    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+        dolor. Purus urna in sit nullam proin</p>
+</div>
+<div class="flex flex-col md:flex-row lg:flex justify-between gap-5 mt-5">
+    <div class=" w-full">
+        <div class="hero rounded" style="background-image: url(./Images/3.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                <p class="mb-5">Teenager are encourged to play hocky. Because it is one of the best exercise for all.</p>
+                <button class="btn btn-error">Register Now!</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="t w-full">
+        <div class="hero " style="background-image: url(./Images/2.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                <p class="mb-5">Teenager are encourged to play hocky. Because it is one of the best exercise for all.</p>
+                <button class="btn btn-error">Register Now!</button>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="last mt-2 w-full bg-center mx-auto">
+  <div class="hero bg-center" style="background-image: url(./Images/4.png);">
+      <div class="hero-overlay bg-opacity-60 "></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+          <p class="mb-5">Teenager are encourged to play hocky. Because it is one of the best exercise for all.</p>
+          <button class="btn btn-error">Register Now!</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<section>
+  <h1 class="text-5xl font-bold text-center mt-5">Our New Products</h1>
+  <p class="text-2xl  text-center">You can buy our new products that you want best from us</p>
+</section>
+<div class=" grid grid-cols-1 md:grid-cols-2">
+
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/5.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/6.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/7.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/8.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/9.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+  <div class="card card-side bg-base-50 shadow-xl">
+
+    <figure><img src="./Images/10.png" alt="Movie"/></figure>
+    <div class="card-body">
+      <div class="rating gap-5">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 " />
+        <span>5.0</span>
+        <input type="radio" name="rating-3" class="mask mask-heart bg-red-400" />
+    <span>200</span>
+      </div>
+      <h2 class="card-title">World Cup Flags Football</h2>
+      <p>Click the button to watch on Jetflix app.</p>
+      <p class="text-red-400">Price - $22.00</p>
+      <div class="card-actions justify-end">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="client text-center mt-2">
+<h1 class="text-5xl font-bold">Clients Question</h1>
+<p class="text-2xl">You can get your all Question and Answer here</p>
+
+</div>
+
+<div class="  flex gap-10 border m-5 px-10 pt-5 pb-5">
+
+  <div class="left min-w-3">
+<img src="./Images/11.png" class="max-h-80  w-full" alt="">
+  </div>
+  <div class="right">
+    <div class="collapse collapse-plus bg-base-200 mt-3">
+      <input type="radio" name="my-accordion-3" checked="checked" /> 
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one  px-10 pt-5 pb-5and close others
+      </div>
+      <div class="collapse-content"> 
+        <p>hello</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-base-200 mt-3">
+      <input type="radio" name="my-accordion-3" /> 
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one and close others
+      </div>
+      <div class="collapse-content"> 
+        <p>hello</p>
+      </div>
+    </div>
+    <div class="collapse collapse-plus bg-base-200 mt-3">
+      <input type="radio" name="my-accordion-3" /> 
+      <div class="collapse-title text-xl font-medium">
+        Click to open this one and close others
+      </div>
+      <div class="collapse-content"> 
+        <p>hello</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+   </main>
+   
+   
+   
+   <footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <nav>
+        <h6 class=" text-5xl text-white">Get in Touch</h6> 
+        <p>Hockey is on the best game you can buy anything</p>
+      </nav>
+      <nav>
+        <h6 class="text-white text-2xl">Company</h6> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <h6 class="text-white text-2xl">Support</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <h6 class="text-white text-2xl">Service</h6> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+
+   </footer>
+</body>
+</html>
